@@ -44,3 +44,10 @@
 .input {
   margin-bottom: 4px;
 }
+
+.footer{
+  text-align: center;
+  display: flex;
+  margin-left: 65px;
+  margin-top: 260px;
+}
