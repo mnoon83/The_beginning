@@ -9,6 +9,8 @@
   border-radius: var(border-radius);
   background: #bab0b0;
   background-size: cover;
+  margin-top: 150px;
+  margin-left: -50px;
 }
 
 .break {
