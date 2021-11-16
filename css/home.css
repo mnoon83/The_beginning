@@ -3,12 +3,14 @@
   margin-bottom: -5px;
 }
 
-.nav-item{
+.nav-item {
   margin-left: 8px;
 }
 
-.home{
+.home {
+  font-size: 20pt;
   margin-left: 5px;
+  color: #C0C0C0;
 }
 
 .header {
@@ -49,10 +51,11 @@
   margin-right: 5px;
 }
 
-.col3{
+.col3 {
   width: 205px;
   height: 500px;
   border: 1px solid;
   color: #00000;
 }
+
 }

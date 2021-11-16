@@ -14,6 +14,8 @@
 
 .home {
   font-size: 20pt;
+  margin-left: 5px;
+  color: #C0C0C0;
 }
 
 .signup {
@@ -68,4 +70,8 @@
   display: flex;
   margin-left: 65px;
   margin-top: 200px;
+}
+
+.power{
+  margin-left: 500px;
 }
