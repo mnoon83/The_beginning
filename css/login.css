@@ -12,9 +12,10 @@
   margin-left: auto;
 }
 
-.about{
+.home{
   font-size: 20pt;
 }
+
 .login {
   display: inline-block;
   text-align: center;
@@ -22,10 +23,9 @@
   width: 365px;
   margin: 1rem;
   padding: 2rem;
-  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
-  border-radius: var(border-radius);
+  border-radius: 15px;
   background: #c0c0c0;
-  background-size: cover;
+  box-shadow: 5px 5px 0px 0px #8B0000;
   margin-top: 150px;
   margin-left: -50px;
 }

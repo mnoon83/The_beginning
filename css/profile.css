@@ -1,9 +1,3 @@
-.nav {
-  margin-top: 10px;
-  margin-right: 400px;
-  margin-bottom: -5px;
-}
-
 .header {
   margin-top: 15px;
   margin-right: 500px;
@@ -18,6 +12,6 @@
   margin-left: auto;
 }
 
-.home {
+.about {
   font-size: 20pt;
 }

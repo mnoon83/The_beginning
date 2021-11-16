@@ -1,0 +1,17 @@
+.header {
+  margin-top: 15px;
+  margin-right: 500px;
+  margin-left: 500px;
+}
+
+.main-nav {
+  display: flex;
+}
+
+.push {
+  margin-left: auto;
+}
+
+.home {
+  font-size: 20pt;
+}
