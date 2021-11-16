@@ -1,3 +1,8 @@
+.header {
+  margin-top: 15px;
+  margin-right: 500px;
+}
+
 .login {
   display: inline-block;
   text-align: center;
@@ -45,7 +50,7 @@
   margin-bottom: 4px;
 }
 
-.footer{
+.footer {
   text-align: center;
   display: flex;
   margin-left: 65px;
