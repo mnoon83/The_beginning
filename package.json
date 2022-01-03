@@ -1,5 +1,24 @@
 {
   "dependencies": {
+    "express": "^4.17.2",
     "sequelize": "^6.9.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "the_beginning",
+  "description": "This is the initial version of the app to begin the start of a great corporation.",
+  "version": "1.0.0",
+  "main": "login.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnoon83/The_beginning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnoon83/The_beginning/issues"
+  },
+  "homepage": "https://github.com/mnoon83/The_beginning#readme"
 }
