@@ -1,0 +1,26 @@
+.header {
+  margin-top: 15px;
+  margin-right: 500px;
+  margin-left: 500px;
+}
+
+.main-nav {
+  display: flex;
+}
+
+.push {
+  margin-left: auto;
+}
+
+.home {
+  font-size: 20pt;
+  margin-left: 5px;
+  color: #C0C0C0;
+}
+
+.footer {
+  text-align: center;
+  display: flex;
+  margin-left: 65px;
+  margin-top: 250px;
+}
