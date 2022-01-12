@@ -18,23 +18,23 @@
   color: #C0C0C0;
 }
 
+.footer {
+  text-align: center;
+  display: flex;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
 .login {
   display: inline-block;
   text-align: center;
-  height: 400px;
-  width: 365px;
+  height: 700px;
+  width: 900px;
   margin: 1rem;
   padding: 2rem;
   border-radius: 15px;
   background: #c0c0c0;
   box-shadow: 5px 5px 0px 0px #8B0000;
-  margin-top: 150px;
-  margin-left: -50px;
-}
-
-.footer {
-  text-align: center;
-  display: flex;
-  margin-left: 65px;
-  margin-top: 250px;
+  margin-top: 50px;
+  margin-left: -250px;
 }
