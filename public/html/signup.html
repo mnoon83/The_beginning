@@ -19,13 +19,34 @@
           <ul class="main-nav">
             <a href="./about.html"><img src="https://t3.ftcdn.net/jpg/03/35/50/16/360_F_335501646_NTEXtBL6DORF7iHRt3HYusFXhZq3DLoQ.jpg"
                 alt="icon" height="40px" width="40px"></a>
-            <a class="home" href="./login.html">Fapr</a>
+            <a class="home" href="">Fapr</a>
             <a class="push" href="./login.html"><button type="button" class="btn btn-success">Log In</button></a>
           </ul>
         </nav>
       </div>
     <hr>
     <body>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          Launch static backdrop modal
+        </button>
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+          aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="staticBackdropLabel">Welcome to Fapr!</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Fapr is intended for those 18 and up and contains adult content.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">I'm not 18 and need to leave</button>
+                <button type="button" class="btn btn-primary">I'm ready to enter you</button>
+              </div>
+            </div>
+          </div>
+        </div>
       <div class="col-md-6 offset-md-5">
       <div class="signup">
         <form>
@@ -57,8 +78,8 @@
               </p>
           <p>
           <div class="tos">
-            By continuing with the options above, you agree to Fapr's <a href="#">Terms of Service</a> and have read the <a
-              href="#">Privacy Policy</a>
+            By continuing with the options above, you agree to Fapr's <a href="tos.html">Terms of Service</a> and have read the <a
+              href="privacy.html">Privacy Policy</a>
         </form>
       </div>
       </p>
