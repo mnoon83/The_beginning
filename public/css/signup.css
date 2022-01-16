@@ -16,6 +16,7 @@
   font-size: 20pt;
   margin-left: 5px;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .signup {
@@ -72,6 +73,6 @@
   margin-top: 200px;
 }
 
-.power{
+.power {
   margin-left: 500px;
 }
