@@ -23,19 +23,19 @@
   display: inline-block;
   text-align: center;
   height: 600px;
-  width: 600px;
+  width: 800px;
   margin: 1rem;
   padding: 2rem;
   border-radius: 15px;
   background: #c0c0c0;
   box-shadow: 5px 5px 0px 0px #8B0000;
   margin-top: 50px;
-  margin-left: -125px;
+  margin-left: -175px;
 }
 
 .footer {
   text-align: center;
   display: flex;
-  margin-left: 900px;
+  margin-left: 950px;
   margin-top: 165px;
 }
