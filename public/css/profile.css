@@ -69,5 +69,18 @@
 }
 
 .card {
-  margin-left: 675px;
+  margin-left: 750px;
+}
+
+.col-md-8 {
+  height: 130px;
+  background-color: #8b008b;
+}
+
+p {
+  margin: 0
+}
+
+h5 {
+  margin: 0
 }
