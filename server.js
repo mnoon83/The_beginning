@@ -1,11 +1,9 @@
+const exp = require('constants')
 const express=require('express')
 const {join}=require('path')
 const app=express()
 app.use(express.static(join(__dirname, 'public')))
-// app.get('/',(req,res)=>{
-//   res.sendFile(join(__dirname,'login.html'))
-// })
-// app.get('/test', (req, res)=>{
-//   res.send()
-// })
-app.listen(8080)
+app.use(express.urlencoded({exrended:true}))
+app.use(express.json())
+
+app.listen(process.env.PORT || 3000)
