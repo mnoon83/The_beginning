@@ -1,6 +1,9 @@
+require('dotenv').config()
+
 const express = require('express')
 const {join} = require('path')
 const passport = require('passport')
+const { User } = require('./models')
 const { Strategy: JWTStrategy, ExtractJWT } = require('passport-jwt')
 
 
@@ -13,6 +16,14 @@ app.use(express.json())
 app.use(passport.initialize())
 app.use(passport.session())
 
-passport.use()
+passport.use(User.createStrategy())
+
+passport.serializeUser(User.serializeUser())
+passport.deserializeUser(User.deserializeUser())
+
+passport.use(new JWTStrategy({
+  jwtFromRequest: ExtractJWT.fromAuthHeaderAsBearerToken(),
+  secretOrKey: process.env.SECRET
+}))
 
 app.listen(process.env.PORT || 3000)
